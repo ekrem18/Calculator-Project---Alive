@@ -34,7 +34,7 @@ body {
   height: 250px;
   display: flex;
   flex-direction: column;
-  gap:0.3;
+  gap:0.3rem;
   & .display {
     /* background-color: blue; */
     height: 115px;
@@ -44,12 +44,14 @@ body {
   & .upScreen {
     font-size: 3rem;
     padding-top: 3rem;
-    color: rgb(211, 211, 211);
+    padding-right: 1rem;
+    /* color: rgb(211, 211, 211); */
   }
 
   & .bottomScreen {
     font-size: 6rem;
     padding-top: 1rem;
+    padding-right: 1rem;
     
   }
 }
