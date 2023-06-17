@@ -84,4 +84,4 @@ const calculate = (fNum, sNum, choosedOp) => {
     }
   } else if (choosedOp === "x") return (fNum * sNum).toFixed(2);
   else if (choosedOp === "%") return (fNum * sNum) / 100;
-};
+}
