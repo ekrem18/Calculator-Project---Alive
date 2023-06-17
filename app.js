@@ -48,6 +48,7 @@ const operator = (e) => {
       const minus = "-";
       bottomScreen.innerText = minus + fNum;
       upScreen.innerText = bottomScreen.innerText;
+      
     }
   } else if (e.target.classList.contains("equal")) {
     upScreen.innerText += bottomScreen.innerText.slice(0, -1);
@@ -68,6 +69,8 @@ const operator = (e) => {
     allScreen.innerText = "";
     location.reload();
   }
+ 
+ 
 };
 
 const calculate = (fNum, sNum, choosedOp) => {
