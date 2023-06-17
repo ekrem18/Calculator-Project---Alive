@@ -57,7 +57,7 @@ const operator = (e) => {
       bottomScreen.innerText === "undefined" &&
       e.target.classList.contains("equal")
     ) {
-      alert("deger gir");
+      alert("Please enter a valid number!");
       bottomScreen.innerText = "";
     }
   } else if (e.target.classList.contains("clear")) {
@@ -75,7 +75,7 @@ const calculate = (fNum, sNum, choosedOp) => {
   else if (choosedOp === "-") return (fNum - sNum).toFixed(2);
   else if (choosedOp === "÷") {
     if (sNum === 0) {
-      return "HATA!!!";
+      return "ERR!!!";
     } else {
       return (fNum / sNum).toFixed(5);
     }
